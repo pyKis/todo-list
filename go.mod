@@ -1,4 +1,4 @@
-module todo-list
+module github.com/pyKis/todo-list
 
 go 1.22.0
 
