@@ -1,4 +1,4 @@
-module v2
+module todo-list
 
 go 1.22.0
 
