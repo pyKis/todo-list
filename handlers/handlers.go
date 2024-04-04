@@ -4,7 +4,7 @@ package handlers
 import (
     "bytes"
     "encoding/json"
-    "errors"
+    _"errors"
     "log"
     "net/http"
     "strconv"
@@ -12,7 +12,7 @@ import (
     "github.com/pyKis/todo-list/database"
     "github.com/pyKis/todo-list/models"
     "github.com/go-chi/chi/v5"
-    "gorm.io/gorm" 
+    _"gorm.io/gorm" 
 )
 
 func GetTasks(w http.ResponseWriter, r *http.Request) {
